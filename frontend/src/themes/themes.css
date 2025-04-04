@@ -1,0 +1,31 @@
+.lgx-gallery-area{
+  display: flex;
+  flex-wrap: wrap;
+}
+.download{
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.statement p{ 
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+
+}
+.statement{
+  width: 75rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer button{
+  width: 12.5rem;
+  height: 4rem;
+  font-size: 2rem;
+  color: black;
+}
