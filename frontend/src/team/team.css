@@ -1,0 +1,26 @@
+.team-box img {
+  border-radius: 50%; /* Makes the image circular */
+  width: 200px;
+  height: 200px;
+  object-fit: cover; /* Keeps the aspect ratio while filling the container */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.team-box img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.team-box h2{
+  color: white;
+  font-size: 2rem;
+}
+
+.team-box h6 a{
+  font-size: 3rem;
+}
+
+.team-box{
+  margin-bottom: 2rem;
+}
