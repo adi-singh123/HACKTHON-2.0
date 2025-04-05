@@ -34,8 +34,8 @@ function Body() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="lgx-scroll" href="#schedule">
-                Schedule
+              <a className="lgx-scroll" href="#register">
+                Register
               </a>
             </li>
             <li className="nav-item">

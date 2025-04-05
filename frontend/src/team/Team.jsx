@@ -1,6 +1,7 @@
 import React from "react";
 
-import "../team/team.css"
+import "../team/team.css";
+import { Link } from "react-router-dom";
 
 const TeamSection = () => {
   return (
@@ -133,7 +134,11 @@ const TeamSection = () => {
           </div>
           <div className="col-md-4 text-center">
             <div className="team-box">
-              <img src="team\prajwal.jpeg" alt="Prajjwal Srivastava" width="90%" />
+              <img
+                src="team\prajwal.jpeg"
+                alt="Prajjwal Srivastava"
+                width="90%"
+              />
               <h2>Prajjwal Srivastava</h2>
               <h6>
                 <a
@@ -146,7 +151,6 @@ const TeamSection = () => {
               </h6>
             </div>
           </div>
-          
         </div>
 
         <div className="section_title">
@@ -218,6 +222,13 @@ const TeamSection = () => {
               </div>
             </div>
           ))}
+        </div>
+      </div>
+      <div className="center">
+        <div id="register">
+          <Link to="/register">
+            <button>REGISTER YOUR TEAM</button>
+          </Link>
         </div>
       </div>
     </section>
