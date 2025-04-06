@@ -14,7 +14,7 @@ function Body() {
     <div className="main">
       <div className="header">
         <div className="logo">
-          <img src="" alt="logo"></img>
+          <img src="/image\sdc-logo-ByoIqf9u.png" alt="logo"></img>
         </div>
         <div className="item">
           <ul>
@@ -34,13 +34,8 @@ function Body() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="lgx-scroll" href="#register">
+              <a className="lgx-scroll" href="/register">
                 Register
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="lgx-scroll" href="#sponsors">
-                Sponsors
               </a>
             </li>
             <li className="nav-item">

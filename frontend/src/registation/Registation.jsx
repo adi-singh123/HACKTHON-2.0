@@ -65,7 +65,7 @@ const RegisterPage = () => {
   };
 
   return (
-    <div className="register-background">
+    <div className="register-background" id="register">
       <div className="register-container">
         <form className="register-form" onSubmit={handleSubmit}>
           <h2>Register Your Idea</h2>

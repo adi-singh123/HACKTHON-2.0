@@ -32,7 +32,7 @@ function Prizes() {
                 <h4 className="prize-heading">First Prize</h4>
                 <p>GOLD MEDAL</p>
                 <p>
-                  Cash Prize of <b>INR 45,000</b>
+                  GIFT's
                 </p>
               </div>
               <div className="shadowOne"></div>
@@ -52,10 +52,10 @@ function Prizes() {
                 </div>
                 <h4 className="prize-heading">Second Prize</h4>
                 <p>
-                  Total Prize of Worth <b>$12,500</b>
+                  siliver model
                 </p>
                 <p>
-                  Cash Prize of <b>INR 35,000</b>
+                 GIFTS
                 </p>
               </div>
               <div className="shadowOne"></div>
@@ -75,10 +75,10 @@ function Prizes() {
                 </div>
                 <h4 className="prize-heading">Third Prize</h4>
                 <p>
-                  Total Prize of Worth <b>$10,000</b>
+                  BROWN model
                 </p>
                 <p>
-                  Cash Prize of <b>INR 25,000</b>
+                  GIFTS
                 </p>
               </div>
               <div className="shadowOne"></div>

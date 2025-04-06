@@ -24,3 +24,12 @@
 .team-box{
   margin-bottom: 2rem;
 }
+.bgimage{
+  position: absolute;
+  z-index: -10;
+}
+
+.team-box h4{
+  color: rgba(207, 36, 36, 0.676);
+
+}

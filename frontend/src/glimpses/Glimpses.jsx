@@ -29,14 +29,15 @@ function GlimpsesNew() {
                 <img src="public\image\b.jpeg" alt="img2" />
                 <img src="public\image\c.jpeg" alt="img3" />
                 <img src="public\image\d.jpeg" alt="img4" />
-                <img src="public\image\e.jpeg" alt="img5" />
+                <img src="public\image\m.jpeg" alt="img5" />
                 <img src="public\image\f.jpeg" alt="img6" />
                 <img src="public\image\g.jpeg" alt="img7" />
                 <img src="public\image\h.jpeg" alt="img1" />
                 <img src="public\image\i.jpeg" alt="img2" />
                 <img src="public\image\j.jpeg" alt="img3" />
-                <img src="public\image\k.jpeg" alt="img4" />
-                <img src="public\image\l.jpeg" alt="img5" />
+                <img src="/image\o.jpeg" alt="img4" />
+                <img src="/image\m.jpeg" alt="img5" />
+            
               </div>
             </div>
           </div>
@@ -47,12 +48,12 @@ function GlimpsesNew() {
                 <img src="public\image\k.jpeg" alt="img2" />
                 <img src="public\image\j.jpeg" alt="img3" />
                 <img src="public\image\i.jpeg" alt="img4" />
-                <img src="public\image\h.jpeg" alt="img5" />
+                <img src="public\image\o.jpeg" alt="img5" />
                 <img src="public\image\g.jpeg" alt="img6" />
                 <img src="public\image\f.jpeg" alt="img7" />
                 <img src="public\image\e.jpeg" alt="img1" />
                 <img src="public\image\a.jpeg" alt="img2" />
-                <img src="public\image\b.jpeg" alt="img3" />
+                <img src="public\image\n.jpeg" alt="img3" />
                 <img src="public\image\c.jpeg" alt="img4" />
                 <img src="public\image\d.jpeg" alt="img5" />
               </div>
