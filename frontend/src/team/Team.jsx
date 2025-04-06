@@ -106,7 +106,7 @@ const TeamSection = () => {
           </div>
           <div className="col-md-4 text-center">
             <div className="team-box">
-              <img src="team\adrash.jpeg" alt="ADARSH" width="90%" />
+              <img src="/team\adrash.jpeg" alt="ADARSH" width="90%" />
               <h2>ADARSH KUMAR SINGH</h2>
               <h6>
                 <a
@@ -122,7 +122,7 @@ const TeamSection = () => {
           </div>
           <div className="col-md-4 text-center">
             <div className="team-box">
-              <img src="team\deepak.jpeg" alt="Deepak Kanaujiya" width="90%" />
+              <img src="/team\deepak.jpeg" alt="Deepak Kanaujiya" width="90%" />
               <h2>Deepak Kanaujiya</h2>
               <h6>
                 <a
@@ -138,7 +138,7 @@ const TeamSection = () => {
           <div className="col-md-4 text-center">
             <div className="team-box">
               <img
-                src="team\prajwal.jpeg"
+                src="/team\prajwal.jpeg"
                 alt="Prajjwal Srivastava"
                 width="90%"
               />

@@ -31,7 +31,7 @@ function Themes() {
                   <div className="lgx-gallery-single">
                     <figure>
                       <img
-                        src="public\image\Cloud.svg"
+                        src="/image\Cloud.svg"
                         alt="Cloud"
                         loading="lazy"
                       />
@@ -55,7 +55,7 @@ function Themes() {
                   <div className="lgx-gallery-single">
                     <figure>
                       <img
-                        src="public\image\EdTech.svg"
+                        src="/image\EdTech.svg"
                         alt="EdTech"
                         loading="lazy"
                       />
@@ -78,7 +78,7 @@ function Themes() {
                 >
                   <div className="lgx-gallery-single">
                     <figure>
-                      <img src="public\image\AI.svg" alt="AI" loading="lazy" />
+                      <img src="/image\AI.svg" alt="AI" loading="lazy" />
                       <figcaption className="lgx-figcaption">
                         <div className="lgx-hover-link">
                           <div className="lgx-vertical">
@@ -103,7 +103,7 @@ function Themes() {
                   <div className="lgx-gallery-single">
                     <figure>
                       <img
-                        src="public\image\Fintech.svg"
+                        src="/image\Fintech.svg"
                         alt="Productivity"
                         loading="lazy"
                       />
@@ -127,7 +127,7 @@ function Themes() {
                   <div className="lgx-gallery-single">
                     <figure>
                       <img
-                        src="public\image\IOT.svg"
+                        src="/image\IOT.svg"
                         alt="IOT"
                         loading="lazy"
                       />
@@ -151,7 +151,7 @@ function Themes() {
                   <div className="lgx-gallery-single">
                     <figure>
                       <img
-                        src="image\Health Care.svg"
+                        src="/image\Health Care.svg"
                         alt="Health Care"
                         loading="lazy"
                       />
@@ -175,7 +175,7 @@ function Themes() {
                   <div className="lgx-gallery-single">
                     <figure>
                       <img
-                        src="public\image\OpenInnovation.svg"
+                        src="/image\OpenInnovation.svg"
                         alt="Open Innovation"
                         loading="lazy"
                       />
@@ -203,7 +203,7 @@ function Themes() {
                   <div className="lgx-gallery-single">
                     <figure>
                       <img
-                        src="public\image\web.svg"
+                        src="/image\web.svg"
                         alt="Web3"
                         loading="lazy"
                       />
@@ -228,7 +228,7 @@ function Themes() {
                   </div>
                   <div className="footer">
                     <a
-                      href="public\download\Problem Statements Final.pdf"
+                      href="/download\Problem Statements Final.pdf"
                       target="_blank"
                       rel="noreferrer"
                     >

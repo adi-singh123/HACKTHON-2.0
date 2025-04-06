@@ -47,7 +47,7 @@ function About() {
             data-aos-anchor-placement="top-bottom"
           >
             <img
-              src="public\image\ship.png"
+              src="/image\ship.png"
               alt="Event Ship Image"
               className="img-fluid medium-ship"
             />
