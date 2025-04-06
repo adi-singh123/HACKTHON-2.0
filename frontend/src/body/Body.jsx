@@ -9,6 +9,7 @@ function Body() {
     } else {
       header.classList.remove("scrolled");
     }
+    
   });
   return (
     <div className="main">

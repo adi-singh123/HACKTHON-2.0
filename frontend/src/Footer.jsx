@@ -50,7 +50,6 @@ const Footer = () => {
                       href="https://sdc-rec-banda.netlify.app/"
                       target="_blank"
                       className="resource_color"
-                      rel="noopener noreferrer"
                     >
                        Discord
                     </a>
@@ -87,7 +86,6 @@ const Footer = () => {
                           <a
                             href={social.href}
                             target="_blank"
-                            rel="noopener noreferrer"
                           >
                             <i className={`fab fa-${social.icon}`} aria-hidden="true"></i>
                           </a>
@@ -108,7 +106,6 @@ const Footer = () => {
                     <a
                       href="https://github.com/adi-singh123"
                       target="_blank"
-                      rel="noopener noreferrer"
                       style={{ color: "white", textDecoration: "none" }}
                     >
                       Designed with ❤️ by Team HACKFEST

@@ -27,7 +27,7 @@ function Prizes() {
             <div className="main">
               <div className="service">
                 <div className="service-logo first-logo">
-                  <img src="public\image\first.png" alt="1st" />
+                  <img src="/image\first.png" alt="1st" />
                 </div>
                 <h4 className="prize-heading">First Prize</h4>
                 <p>GOLD MEDAL</p>
@@ -48,7 +48,7 @@ function Prizes() {
             <div className="main">
               <div className="service">
                 <div className="service-logo second-logo">
-                  <img src="public\image\second.png" alt="2nd" />
+                  <img src="/image\second.png" alt="2nd" />
                 </div>
                 <h4 className="prize-heading">Second Prize</h4>
                 <p>
@@ -71,7 +71,7 @@ function Prizes() {
             <div className="main">
               <div className="service">
                 <div className="service-logo third-logo">
-                  <img src="public\image\third.png" alt="3rd" />
+                  <img src="/image\third.png" alt="3rd" />
                 </div>
                 <h4 className="prize-heading">Third Prize</h4>
                 <p>
