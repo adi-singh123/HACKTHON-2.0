@@ -154,6 +154,25 @@ const TeamSection = () => {
               </h6>
             </div>
           </div>
+          <div className="col-md-4 text-center">
+            <div className="team-box">
+              <img
+                src="/team\Hrishabh.jpg"
+                alt="hrishabh"
+                width="90%"
+              />
+              <h2>Hrishabh Gupta</h2>
+              <h6>
+                <a
+                  href="https://www.linkedin.com/in/hrishabh-gupta-50442821a/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-linkedin"></i>
+                </a>
+              </h6>
+            </div>
+          </div>
         </div>
       </div>
       <div className="bgimage">

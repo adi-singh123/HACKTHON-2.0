@@ -80,3 +80,22 @@
 
   margin-top: 12px;
 }
+
+.video{
+  position: relative;
+}
+.rec{
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  opacity: 0.6; /* Adjust transparency */
+  z-index: 2;
+}
+
+.rec img {
+  width: 140%; /* Adjust size */
+ height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}

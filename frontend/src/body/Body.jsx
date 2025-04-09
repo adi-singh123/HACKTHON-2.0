@@ -1,7 +1,6 @@
 import React from "react";
 import "../body/body.css";
 
-
 function Body() {
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");
@@ -10,7 +9,6 @@ function Body() {
     } else {
       header.classList.remove("scrolled");
     }
-    
   });
   return (
     <div className="main">
@@ -59,11 +57,14 @@ function Body() {
         </div>
       </div>
       <div className="video">
-      <div className="video-container">
-                <video autoPlay muted loop id="background-video">
-                    <source src="/video\pirate_back.mov" type="video/mp4"/>
-                </video>
-            </div>
+        <div className="video-container">
+          <video autoPlay muted loop id="background-video">
+            <source src="/video\pirate_back.mov" type="video/mp4" />
+          </video>
+        </div>
+        <div className="rec">
+          <img src="/team\recbanda.jpeg"></img>
+        </div>
       </div>
     </div>
   );
