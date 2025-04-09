@@ -1,25 +1,22 @@
 import React from "react";
-import "../about/about.css"
+import "../about/about.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function About() {
   return (
     <section className="pb100 pt100" id="about">
-      <div className="about-container container">
+      <div className="container">
         <div className="row">
-          <div
-            className="col-lg-7"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-anchor-placement="top-bottom"
-          >
-            <div className="section_title">
-              <h3 className="title-dark">About the event</h3>
-            </div>
+          <div className="section_title">
+            <h3 className="title-dark">About the event</h3>
+          </div>
+          <div className="col-6 mt-3 pt-1">
             <div id="about-div">
               <p>
-                HackFest 2.0 – The Ultimate Tech Showdown at REC Banda!is   
-                <b>Rajkiya Engineering College Banda</b>s most technical and biggest
-                hackathon aimed at fostering innovation, creativity, and
+                HackFest 2.0 – The Ultimate Tech Showdown at REC Banda!is
+                <b>Rajkiya Engineering College Banda</b>s most technical and
+                biggest hackathon aimed at fostering innovation, creativity, and
                 problem-solving among students. This hackathon provides a
                 platform for aspiring developers, designers, and entrepreneurs
                 to collaborate and build solutions to real-world challenges.
@@ -36,22 +33,22 @@ function About() {
               </p>
               <br />
               <p>
-                <b>COMING SOON...</b> 
+                <b>COMING SOON...</b>
               </p>
             </div>
-          </div>
-          <div
-            className="col-lg-5 text-center"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-anchor-placement="top-bottom"
-          >
-            <img
-              src="/image\ship.png"
-              alt="Event Ship Image"
-              className="img-fluid medium-ship"
-            />
-          </div>
+            </div>
+            <div
+              className="col-6 text-center"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom"
+            >
+              <img
+                src="/image\ship.png"
+                alt="Event Ship Image"
+                className="img-fluid medium-ship"
+              />
+            </div>
         </div>
       </div>
     </section>

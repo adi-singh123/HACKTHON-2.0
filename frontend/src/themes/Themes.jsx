@@ -1,6 +1,8 @@
 import React from "react";
 import "../themes/themes.css";
 
+
+
 function Themes() {
   return (
     <section id="themes" className="">
@@ -59,10 +61,10 @@ function Themes() {
                         alt="EdTech"
                         loading="lazy"
                       />
-                      <figcaption className="figcaption">
+                      <figcaption className="lgx-figcaption">
                         <div className="lgx-hover-link">
                           <div className="lgx-vertical">
-                            <p className="theme-input">EdTech</p>
+                            <p className="theme-input">Ed Tech</p>
                           </div>
                         </div>
                       </figcaption>
@@ -217,9 +219,11 @@ function Themes() {
                     </figure>
                   </div>
                 </div>
-                <div className="download">
-                  <div className="statement">
-                    <p>
+                <div className="container">
+                  <div className="row">
+                    <div className="col-3"></div>
+                    <div className="statement col-9">
+                    <p className="text">
                       These are some sample problem statements from which you
                       can take reference. You can work on any problem statement
                       of your choice.
@@ -231,11 +235,13 @@ function Themes() {
                       href="/download\Problem Statements Final.pdf"
                       target="_blank"
                       rel="noreferrer"
+                      download={"/download\Problem Statements Final.pdf"}
                     >
                       <button type="button" className="btn btn-primary">
                         Download
                       </button>
                     </a>
+                  </div>
                   </div>
                 </div>
               </div>

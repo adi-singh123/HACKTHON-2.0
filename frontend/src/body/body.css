@@ -1,14 +1,20 @@
+.main{
+  background-color: black;
+}
+
+
 
 .header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  height: 3.8rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+ align-items: center;
   padding: 1rem 2rem;
-  z-index: 999;
+  z-index: 9;
   background-color: transparent;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
@@ -45,29 +51,32 @@
 
 .item ul li {
   list-style-type: none;
-  margin: 8px 0;
-  font-size: 16px;
 }
 .item ul li a {
   text-decoration: none;
   color: #ffffffcc; /* light white */
   transition: color 0.3s ease, transform 0.2s ease;
   display: inline-block;
-  margin-left: 2rem;
-  font-size: 2rem;
-  font-weight: 500;
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 50;
 }
 
 .item ul li a:hover {
-  color: #45b6b6; /* accent color on hover */
+  color: #1fcfcf; /* accent color on hover */
   transform: translateX(4px); /* subtle hover shift */
+  font-weight: 500;
 }
 
 #background-video{
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   object-fit: cover;
   z-index: -1;
   overflow: hidden;
+}
+.item ul{
+
+  margin-top: 12px;
 }

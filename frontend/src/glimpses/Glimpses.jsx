@@ -1,6 +1,7 @@
 import React from "react";
 import "../glimpses/glimpses.css";
 
+
 function GlimpsesNew() {
   return (
     <section id="glimpses-new">
@@ -13,7 +14,7 @@ function GlimpsesNew() {
               data-aos-duration="1000"
               data-aos-anchor-placement="top-bottom"
             >
-              Glimpses <span className="text">of HACKFEST </span> <br />
+              Glimpses <span className="text">OF HACKFEST </span> <br />
               <span className="previous_ed text-capitalize">
                 Previous Editions
               </span>

@@ -1,3 +1,94 @@
-p{
-  color: black;
+/* Main Section Styling */
+#prizes {
+  background-color: #0d0d0d;
+  padding: 100px 0;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
 }
+
+
+
+/* Individual Card */
+.prize-card {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+/* Card Container */
+.good {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 60px 20px 30px;
+  text-align: center;
+  color: #000;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  min-height: 330px;
+  width: 100%;
+}
+
+.good:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(255, 255, 255, 0.15);
+}
+
+/* Medal Icon */
+.ser-logo {
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.ser-logo img {
+  width: 60px;
+  height: 60px;
+}
+
+/* Text Container */
+.ser {
+  margin-top: 20px;
+}
+
+/* Prize Heading */
+.prize-heading {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 20px 0 15px;
+  color: #111;
+}
+
+/* Prize Descriptions */
+.ser p {
+  font-size: 1rem;
+  color: #444;
+  margin: 5px 0;
+}
+
+/* Optional: Add some glowing effect on hover */
+.good:hover .prize-heading {
+  color: #00bcd4;
+}
+
+/* Responsive Design */
+/* @media (max-width: 768px) {
+  .good {
+    padding: 50px 15px 25px;
+  }
+
+  .service-logo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .prize-heading {
+    font-size: 1.3rem;
+  }
+} */

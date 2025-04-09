@@ -90,11 +90,10 @@ body{
 
 
 
-@media only screen and (max-width: 550px) {
+/* @media only screen and (max-width: 550px) {
 
-  /* Styles for phones and small tablets */
   body {
    background-color: red;
    display: none;
   }
-}
+} */

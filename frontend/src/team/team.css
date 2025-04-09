@@ -1,3 +1,6 @@
+
+
+
 .team-box img {
   border-radius: 50%; /* Makes the image circular */
   width: 200px;
@@ -24,10 +27,13 @@
 .team-box{
   margin-bottom: 2rem;
 }
-.bgimage{
+
+.bgimage img{
   position: absolute;
+  width: 100%;
   z-index: -10;
 }
+
 
 .team-box h4{
   color: rgba(207, 36, 36, 0.676);

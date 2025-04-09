@@ -1,6 +1,14 @@
+
+
+
+#themes{
+  background-color: black;
+}
+
 .lgx-gallery-area{
   display: flex;
   flex-wrap: wrap;
+  margin-left: 1.5rem;
 }
 .download{
   width: 100%;
@@ -22,10 +30,44 @@
   justify-content: center;
   align-items: center;
 }
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .footer button{
   width: 12.5rem;
   height: 4rem;
   font-size: 2rem;
   color: black;
+  margin-bottom: 2rem;
+}
+
+.lgx-hover-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.lgx-figcaption .lgx-vertical p{
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 2rem;
+}
+
+.text{
+  margin-left: 2rem;
+  font-size: 1rem;
+}
+
+.lgx-gallery-single img{
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.lgx-gallery-single img:hover{
+  transform: scale(1.1);
+  opacity: 0.6;
 }

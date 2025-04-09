@@ -1,5 +1,7 @@
 import React from "react";
 import "../prizes/prizes.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function Prizes() {
   return (
@@ -24,9 +26,9 @@ function Prizes() {
             data-aos-duration="1000"
             data-aos-anchor-placement="top-bottom"
           >
-            <div className="main">
-              <div className="service">
-                <div className="service-logo first-logo">
+            <div className="good">
+              <div className="ser">
+                <div className="ser-logo first-logo">
                   <img src="/image\first.png" alt="1st" />
                 </div>
                 <h4 className="prize-heading">First Prize</h4>
@@ -45,9 +47,9 @@ function Prizes() {
             data-aos-duration="1000"
             data-aos-anchor-placement="top-bottom"
           >
-            <div className="main">
-              <div className="service">
-                <div className="service-logo second-logo">
+            <div className="good">
+              <div className="ser">
+                <div className="ser-logo second-logo">
                   <img src="/image\second.png" alt="2nd" />
                 </div>
                 <h4 className="prize-heading">Second Prize</h4>
@@ -68,9 +70,9 @@ function Prizes() {
             data-aos-duration="1000"
             data-aos-anchor-placement="top-bottom"
           >
-            <div className="main">
-              <div className="service">
-                <div className="service-logo third-logo">
+            <div className="good">
+              <div className="ser">
+                <div className="ser-logo third-logo">
                   <img src="/image\third.png" alt="3rd" />
                 </div>
                 <h4 className="prize-heading">Third Prize</h4>

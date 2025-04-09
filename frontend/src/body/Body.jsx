@@ -1,6 +1,7 @@
 import React from "react";
 import "../body/body.css";
 
+
 function Body() {
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");

@@ -47,7 +47,7 @@ const RegisterPage = () => {
     };
   
     try {
-      const res = await axios.post("https://hackthon-2-0-1.onrender.com/register")
+      const res = await axios.post("http://localhost:8000/register")
       alert("Form submitted successfully!");
       // Optionally reset fields
       setLeader({ name: "", email: "", phone: "" });

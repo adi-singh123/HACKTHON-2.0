@@ -1,13 +1,13 @@
 import React from "react";
 
 import "../team/team.css";
-import { Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const TeamSection = () => {
   return (
     <section id="teams" className="pb100 pt100">
       <div className="bgimage">
-        <img src="image\mtt_bg.png" alt="bg image" />
+        <img className="bgimage-img" src="image\mtt_bg.png" alt="bg image" />
       </div>
       <div className="container">
         <div className="section_title">
@@ -155,15 +155,14 @@ const TeamSection = () => {
             </div>
           </div>
         </div>
-
-        <div className="section_title">
-          <h4 className="title-dark clr-white">Mentors</h4>
-        </div>
-
-        <div className="row justify-content-center">
-        <div className="bgimage">
+      </div>
+      <div className="bgimage">
         <img src="image\mtt_bg.png" alt="bg image" />
       </div>
+      <div className="container">
+        <div className="section_title">
+          <h4 className="title-dark clr-white">MENTOR</h4>
+        </div>
         <div className="row justify-content-center">
           <div className="col-md-4 text-center">
             <div className="team-box">
@@ -283,11 +282,7 @@ const TeamSection = () => {
           </div>
           <div className="col-md-4 text-center">
             <div className="team-box">
-              <img
-                src="/team\ashish-y.jpeg"
-                alt="ASHISH YADAV"
-                width="90%"
-              />
+              <img src="/team\ashish-y.jpeg" alt="ASHISH YADAV" width="90%" />
               <h2>ASHISH YADAV</h2>
               <h4>CP Lead(C/C++)</h4>
               <h6>
@@ -303,11 +298,7 @@ const TeamSection = () => {
           </div>
           <div className="col-md-4 text-center">
             <div className="team-box">
-              <img
-                src="/team\ashish-g.jpeg"
-                alt="ASHISH GAUTAM"
-                width="90%"
-              />
+              <img src="/team\ashish-g.jpeg" alt="ASHISH GAUTAM" width="90%" />
               <h2>ASHISH GAUTAM</h2>
               <h4>Website Manager</h4>
               <h6>
@@ -321,7 +312,6 @@ const TeamSection = () => {
               </h6>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </section>
