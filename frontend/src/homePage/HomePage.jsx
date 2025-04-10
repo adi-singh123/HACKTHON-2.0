@@ -7,6 +7,7 @@ import Prizes from "../prizes/Prizes";
 import Team from "../team/Team"
 import FAQ from "../faqs/FAQ"
 import Footer from "../Footer";
+import Mentor from "../mentor/Mentor"
 
 export default function HomePage(){
   return(
@@ -17,6 +18,7 @@ export default function HomePage(){
     <Themes/>
     <Prizes/>
     <Team/>
+    <Mentor/>
     <FAQ/>
     <Footer/>
     </>
