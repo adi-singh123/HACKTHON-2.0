@@ -4,27 +4,156 @@
 
 
 
-/* body{
-  background-color:black;
-}
+/* body */
 
-#about-div p{
-  color: white;
-  font-size: 2rem;
-}
-
-.header{
-  max-height: 7rem;
-} */
-
-
-
-
-
-/* @media only screen and (max-width: 550px) {
-
-  body {
-   background-color: red;
-   display: none;
+/* For tablets (768px and below) and phones */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem 1rem;
+    height: auto;
   }
-} */
+
+  .logo img {
+    width: 90px;
+    opacity: 0.8;
+    margin-bottom: 0.5rem;
+  }
+
+  .item ul {
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    padding: 0.5rem 0;
+    gap: 1rem;
+    display: none; /* Show this with a class toggle in JS/React */
+  }
+
+  .item ul.show {
+    display: flex;
+  }
+
+  .item ul li {
+    margin: 0.5rem auto;
+    text-align: center;
+  }
+
+  .item ul li a {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .rec {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .rec img {
+    width: 100%;
+  }
+
+  #background-video {
+    height: 100vh;
+  }
+}
+
+
+
+/* about */
+
+
+@media (max-width: 768px) {
+  #about {
+    padding: 2rem 1rem;
+  }
+
+  .section_title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .title-dark {
+    font-size: 2rem;
+  }
+
+  #about-div p {
+    font-size: 0.95rem;
+    line-height: 2rem;
+    text-align: justify;
+  }
+
+  .col-6 {
+    width: 100% !important;
+    max-width: 100%;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+
+  .medium-ship {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  .divide {
+    flex-direction: column;
+    margin: 1rem;
+    border: none;
+  }
+}
+
+/* footer */
+
+
+@media (max-width: 768px) {
+  .link,
+  .connection {
+    position: static;
+    text-align: center;
+    margin: 2rem auto;
+    right: auto;
+  }
+
+  .sdcf-logo img {
+    width: 200px;
+    margin-bottom: 1rem;
+  }
+
+  .insta {
+    justify-content: center;
+    gap: 1rem;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  .line {
+    position: static;
+    margin: 2rem auto 1rem;
+    width: 80%;
+    text-align: center;
+  }
+
+  .line img {
+    display: none;
+  
+  }
+
+  .afterline {
+    position: static;
+    margin: 1rem auto;
+    text-align: right;
+    font-size: 0.95rem;
+  }
+
+  .lgx-footer-area {
+    flex-direction: column !important;
+    align-items: right;
+    padding: 1rem;
+    gap: 4rem;
+  }
+
+  .lgx-footer-single {
+    text-align: center;
+  }
+}

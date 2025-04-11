@@ -13,6 +13,10 @@ app.use(cors());
 app.use(express.json());
 const {Register} =require("./models/register")
 
+app.get("/allstudent",async(req,res)=>{
+  res.send("hii")
+})
+
 
 app.post("/register",async(req ,res)=>{
   try {

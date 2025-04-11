@@ -64,6 +64,21 @@ function Body() {
         </div>
         <div className="rec">
           <img src="/team\recbanda.jpeg"></img>
+          <div className="devfolio-container">
+            <a
+              href="https://devfolio.co" // 🔁 Replace with your hackathon's Devfolio link
+              target="_blank"
+              rel="noopener noreferrer"
+              className="devfolio-button"
+            >
+              <img
+                src="/image\dev.png"
+                alt="Apply with Devfolio"
+                className="devfolio-logo"
+              />
+              <span>Apply with Devfolio</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>

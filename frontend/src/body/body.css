@@ -99,3 +99,45 @@
   border-radius: 10px;
   object-fit: cover;
 }
+
+.devfolio-container {
+  top: 100%;
+  right: 10%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+
+.devfolio-button {
+  display: flex;
+  align-items: center;
+  background-color: #0f0f0f;
+  color: #ffffff;
+  border: 2px solid #00f0ff;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.devfolio-button:hover {
+  background-color: #00f0ff;
+  color: #000;
+}
+/* 
+.devfolio-logo {
+  height: 10px;
+
+
+  margin-right: 10px;
+} */
+
+.devfolio-button img{
+  width: 80px;
+
+}
+
